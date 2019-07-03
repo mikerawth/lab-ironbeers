@@ -5,4 +5,27 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
-  
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: rgb(38, 143, 204);
+  color: white;
+}
+
+.nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin: 0 10px;
+}
+
+.footer {
+  background-color: rgb(9, 27, 37);
+  color: white;
+}
